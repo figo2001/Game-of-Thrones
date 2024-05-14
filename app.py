@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import requests
 import numpy as np
+import pandas as pd
 
 api_data = requests.get("https://thronesapi.com/api/v2/Characters").json()
 
