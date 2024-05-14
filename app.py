@@ -3,6 +3,8 @@ import pickle
 import requests
 import numpy as np
 import pandas as pd
+from pandas.core.indexes.numeric import NumericIndex
+
 
 api_data = requests.get("https://thronesapi.com/api/v2/Characters").json()
 
